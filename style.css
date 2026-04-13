@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+#webcam {
+    width: 640px;
+    height: 480px;
+    transform: scaleX(-1); /* Mirror view */
+}
+
+#output_canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 480px;
+}
